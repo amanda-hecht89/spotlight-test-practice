@@ -5,8 +5,9 @@ import { pets } from './pets.js';
 import { renderPets } from './utils.js';
 
 const petsEl = document.getElementById('pets');
-for (let species of pets) {
-    const petsdiv = renderPets(species);
+
+for (let pet of pets) {
+    const petsdiv = renderPets(pet);
     petsEl.append(petsdiv);
 
 }

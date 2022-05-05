@@ -9,7 +9,7 @@ const test = QUnit.test;
 test('test pet render function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<div id="pets"><div class="amimals"></div><h1>Arya</h1><img src="./assets/Arya.jpeg" height="150"><p>Arya is 7 years old Dog</p></div>`;
+    const expected = `<div class="animal"><h1>Arya</h1><img src="./assets/Arya.jpeg"><p>Arya is 7 and is a CoonHound</p><ul><li>Dog</li><li>Dog</li><li>Turtle</li><li>Fish</li></ul></div>`;
     //Act 
     // Call the function you're testing and set the result to a const
     const actual = renderPets(pets[0]);
