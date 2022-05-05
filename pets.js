@@ -4,6 +4,7 @@ export const pets = [
         age: 7,
         breed: 'CoonHound',
         image: './assets/Arya.jpeg',
+        species: ['Dog', 'Dog', 'Turtle', 'Fish'],
     },
     { name:'Boulder', age: 3, Breed: 'Pit-mix', image: './assets/Boulder.jpeg' },
     { name:'Crowley', age: 5, Breed: 'Red-Earred-Slider', image: './assets/Crowley.jpeg' },

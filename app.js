@@ -1,6 +1,15 @@
 // import functions and grab DOM elements
-import { pets } from './dogs.js';
+
 // let state
+import { pets } from './pets.js';
+import { renderPets } from './utils.js';
+
+const petsEl = document.getElementById('pets');
+for (let species of pets) {
+    const petsdiv = renderPets(species);
+    petsEl.append(petsdiv);
+
+}
 
 // set event listeners 
   // get user input
