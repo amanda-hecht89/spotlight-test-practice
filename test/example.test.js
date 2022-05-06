@@ -27,7 +27,7 @@ test('test pet render function', (expect) => {
 test('test mascot render function ', (expect) => {
     //Arrange
     //Set up your arguments and expectations
-    const expected = `<div id="sports"><div class="mascots"></div><h1>Michigan State</h1><img src="./assets/MSU.jpg" height="150"><p>Michigan State spartans spartans mascot is a Spartan</p></div>`; 
+    const expected = `<div class="mascot"><h1>Michigan State</h1><img src="./assets/MSU.jpg"><p>Michigan State spartans mascot is a Spartan</p></div>`; 
   //Act 
   // Call the function you're testing and set the result to a const
     const actual = renderMascot(football[0]);

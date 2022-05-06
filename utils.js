@@ -37,7 +37,7 @@ export function renderMascot(mascot) {
     img.src = mascot.image;
 
     const p = document.createElement('p');
-    p.textContent = `${mascot.state} ${mascot.team} and is a ${mascot.animal}`;
+    p.textContent = `${mascot.state} ${mascot.team} mascot is a ${mascot.animal}`;
     
     div.append(h1, img, p,);
     return div;
