@@ -6,8 +6,8 @@ export const pets = [
         image: './assets/Arya.jpeg',
         species: ['Dog', 'Dog', 'Turtle', 'Fish'],
     },
-    { name:'Boulder', age: 3, Breed: 'Pit-mix', image: './assets/Boulder.jpeg' },
-    { name:'Crowley', age: 5, Breed: 'Red-Earred-Slider', image: './assets/Crowley.jpeg' },
-    { name:'Alfred', age: 5, Breed: 'Plecco', image: './assets/Alfred.jpeg' },
+    { name:'Boulder', age: 3, breed: 'Pit-mix', image: './assets/Boulder.jpeg', species:[] },
+    { name:'Crowley', age: 5, breed: 'Red-Earred-Slider', image: './assets/Crowley.jpeg', species:[] },
+    { name:'Alfred', age: 5, breed: 'Plecco', image: './assets/Alfred.jpeg', species:[] },
 
 ];
