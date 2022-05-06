@@ -2,7 +2,8 @@
 // import { example } from '../example.js';
 //import { pets } from '../pets.js';
 import { pets } from '../pets.js';
-import { renderPets } from '../utils.js';
+import { football } from '../mascot.js';
+import { renderMascot, renderPets } from '../utils.js';
 
 const test = QUnit.test;
 
@@ -23,19 +24,18 @@ test('test pet render function', (expect) => {
 
 
 
-//test(' ', (expect) => {
+test('test mascot render function ', (expect) => {
     //Arrange
-    // Set up your arguments and expectations
- //   const expected = true;
-    
-    //Act 
-    // Call the function you're testing and set the result to a const
-   // const actual = true;
+    //Set up your arguments and expectations
+    const expected = `<div id="sports"><div class="mascots"></div><h1>Michigan State</h1><img src="./assets/MSU.jpg" height="150"><p>Michigan State spartans spartans mascot is a Spartan</p></div>`; 
+  //Act 
+  // Call the function you're testing and set the result to a const
+    const actual = renderMascot(football[0]);
 
-    //Expect
-    // Make assertions about what is expected versus the actual result
-  //  expect.equal(actual, expected);
-//});
+  //  Expect
+   //  Make assertions about what is expected versus the actual result
+    expect.equal(actual.outerHTML, expected);
+});
 
 
 

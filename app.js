@@ -2,7 +2,7 @@
 // let state
 import { pets } from './pets.js';
 import { renderPets } from './utils.js';
-import { team } from './mascot.js';
+import { football } from './mascot.js';
 import { renderMascot } from './utils.js';
 
 
@@ -16,7 +16,7 @@ for (let pet of pets) {
 }
 
 for (let mascot of mascot) {
-    const mascotdiv = renderMascot(team);
+    const mascotdiv = renderMascot(football);
     mascotEl.append = (mascotdiv);
 }
 // set event listeners 

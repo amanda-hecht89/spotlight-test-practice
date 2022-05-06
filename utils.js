@@ -26,7 +26,7 @@ export function renderPets(pets) {
 
 
 }
-export function renderMascot(team) {
+export function renderMascot(mascot) {
     const div = document.createElement('div');
     div.classList.add('mascot');
 
