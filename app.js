@@ -3,14 +3,21 @@
 import { pets } from './pets.js';
 import { renderPets } from './utils.js';
 import { team } from './mascot.js';
+import { renderMascot } from './utils.js';
 
 
 const petsEl = document.getElementById('pets');
+const mascotEl = document.getElementById('mascot');
 
 for (let pet of pets) {
     const petsdiv = renderPets(pet);
     petsEl.append(petsdiv);
 
+}
+
+for (let mascot of mascot) {
+    const mascotdiv = renderMascot(team);
+    mascotEl.append = (mascotdiv);
 }
 // set event listeners 
   // get user input
