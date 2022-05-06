@@ -11,7 +11,6 @@ for (let pet of pets) {
     petsEl.append(petsdiv);
 
 }
-
 // set event listeners 
   // get user input
   // use user input to update state 
