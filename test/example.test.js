@@ -3,6 +3,7 @@
 //import { pets } from '../pets.js';
 import { pets } from '../pets.js';
 import { football } from '../mascot.js';
+import { food } from '../fruit.js';
 import { renderFruit, renderMascot, renderPets } from '../utils.js';
 
 const test = QUnit.test;
@@ -42,7 +43,7 @@ test('test mascot render function ', (expect) => {
 test('test food render function ', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<div class="fruit"></div><h1>Banana</h1><img src="./assets/banana.png"><p>Banana is a yellow fruit!</p></div>`;
+    const expected = `<div class="food"><h1>Banana</h1><img src="./assets/banana.png"><p>Banana ia a Yellow fruit</p></div>`;
     
     //Act 
     // Call the function you're testing and set the result to a const

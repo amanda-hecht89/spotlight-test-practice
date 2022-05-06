@@ -18,14 +18,14 @@ for (let pet of pets) {
 
 }
 
-for (let mascot of mascot) {
-    const mascotdiv = renderMascot(football);
-    mascotEl.append = (mascotdiv);
+for (let mascot of football) {
+    const mascotdiv = renderMascot(mascot);
+    mascotEl.append(mascotdiv);
 }
 
-for (let food of food) {
-    const fruitdiv = renderFruit(food);
-    fruitEl.append = (fruitdiv);
+for (let fruit of food) {
+    const fruitdiv = renderFruit(fruit);
+    fruitEl.append(fruitdiv);
 }
 // set event listeners 
   // get user input
