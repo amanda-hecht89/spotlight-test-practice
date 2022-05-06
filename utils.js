@@ -26,3 +26,19 @@ export function renderPets(pets) {
 
 
 }
+export function renderMascot(team) {
+    const div = document.createElement('div');
+    div.classList.add('mascot');
+
+    const h1 = document.createElement('h1');
+    h1.textContent = mascot.state;
+
+    const img = document.createElement('img');
+    img.src = mascot.image;
+
+    const p = document.createElement('p');
+    p.textContent = `${mascot.state} ${mascot.team} and is a ${mascot.animal}`;
+    
+    div.append(h1, img, p,);
+    return div;
+}

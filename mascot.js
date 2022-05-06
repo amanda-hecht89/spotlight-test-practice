@@ -1,8 +1,8 @@
-export const pets = [
+export const team = [
     {
-        name: 'Arya',
-        age: 7,
-        breed: 'CoonHound',
+        state: 'Michigan State',
+        team: 'spartans',
+        animal: 'Spartan',
         image: './assets.MSU.jpg',
     },
 ];

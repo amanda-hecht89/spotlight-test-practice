@@ -1,8 +1,9 @@
 // import functions and grab DOM elements
-
 // let state
 import { pets } from './pets.js';
 import { renderPets } from './utils.js';
+import { team } from './mascot.js';
+
 
 const petsEl = document.getElementById('pets');
 
